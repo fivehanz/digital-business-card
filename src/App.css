@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(35, 37, 44, 1);
+}
+
+p {
+  font-size: 0.95rem;
+}
+
+.App {
+  max-width: 34rem;
+  margin: 0 auto;
+}
+
+.card {
+  max-width: 20rem;
+  margin: 3rem auto;
+  background-color: rgba(26, 27, 33, 1);
+  border-radius: 1rem;
+}
+
+.card-info > .card-buttons,
+.card-about,
+.card-interests {
+  margin: 2rem;
+  line-height: 1.35;
+}
+
+.card-info h1 {
+  color: #fff;
+  font-size: 2.1rem;
+}
+
+.card-info h2 {
+  color: rgba(243, 191, 153, 1);
+  font-size: 1.125rem;
+}
+
+.card-info p,
+.card-about-title,
+.card-interests-title {
+  color: rgba(245, 245, 245, 1);
+}
+
+.card-info p {
+  margin-top: 0.5rem;
+}
+
+.card-about-desc,
+.card-interests-desc {
+  color: rgba(220, 220, 220, 1);
+}
+
+.card-info-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  line-height: 1.25;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  background-color: #fff;
+  color: rgba(55, 65, 81, 1);
+  font-size: 1.1rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-button-linkedin {
+  background-color: rgba(80, 147, 226, 1);
+  color: #fff;
+}
+
+.card-button-icon {
+  width: 1.25rem;
+}
+
+.card-footer {
+  background-color: rgba(22, 22, 25, 1);
+  padding: 1.5rem 3rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.card-footer-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-footer-icon {
+  width: 1.8rem;
+  cursor: pointer;
+}
