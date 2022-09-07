@@ -1,7 +1,7 @@
 import TwitterIcon from "../assets/twitter-icon.svg";
 import FacebookIcon from "../assets/facebook-icon.svg";
 import InstagramIcon from "../assets/instagram-icon.svg";
-import GithubIcon from "../assets/github-icon.svg";
+import GithubIcon from "../assets/github.svg";
 
 const Footer = () => {
   return (
